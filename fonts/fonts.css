@@ -1,0 +1,57 @@
+/* 
+ * LINESeedJP フォント定義ファイル
+ * Figma Makeで使用するフォントの@font-face定義
+ * 
+ * 使用方法：
+ * 1. GitHubリポジトリを作成（Publicに設定）
+ * 2. このフォルダの内容をアップロード
+ * 3. 以下のURLの「username/repo」部分を実際のリポジトリ情報に置き換える
+ * 4. Figma MakeでこのCSSファイルのRaw URLを使用するか、個別のフォントファイルのRaw URLを使用
+ */
+
+/* LINESeedJP - Thin (100) */
+@font-face {
+  font-family: 'LINESeedJP';
+  src: url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Th.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Th.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* LINESeedJP - Regular (400) */
+@font-face {
+  font-family: 'LINESeedJP';
+  src: url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Rg.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Rg.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* LINESeedJP - Bold (700) */
+@font-face {
+  font-family: 'LINESeedJP';
+  src: url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Bd.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Bd.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* LINESeedJP - Extra Bold (800) */
+@font-face {
+  font-family: 'LINESeedJP';
+  src: url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Eb.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/username/repo/main/fonts/LINESeedJP_OTF_Eb.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 
+ * 使用方法：
+ * body {
+ *   font-family: 'LINESeedJP', sans-serif;
+ * }
+ */
